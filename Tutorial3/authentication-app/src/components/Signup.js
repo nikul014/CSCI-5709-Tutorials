@@ -204,7 +204,7 @@ const Signup = () => {
 const PasswordTooltip = ({show, passwordChecks}) => {
     return (
         <div
-            className={`absolute bg-white border border-gray-300 p-2 rounded-lg shadow-md ${show ? 'block' : 'hidden'}`}>
+            className={`absolute bg-white border border-gray-200 p-4 rounded-lg shadow-3xl ${show ? 'block' : 'hidden'} z-10`}>
             <p className="text-sm">Minimum 8 characters: {getValidationIcon(passwordChecks.length)}</p>
             <p className="text-sm">At least 1 uppercase letter: {getValidationIcon(passwordChecks.uppercase)}</p>
             <p className="text-sm">At least 1 lowercase letter: {getValidationIcon(passwordChecks.lowercase)}</p>
@@ -226,6 +226,7 @@ const getValidationIcon = (isValid) => {
 
 export default Signup;
 
+// https://666214067d1f5f5796c788b4--tutorial3-advance-web-development.netlify.app/
 //https://www.freepik.com/free-vector/abstract-realistic-technology-particle-background_6764484.htm#query=login%20background&position=25&from_view=keyword&track=ais_user&uuid=453bb8de-6af9-4156-bc53-a5064967b965
 // https://pixabay.com/videos/sea-beach-sunset-tree-53127/
 // https://www.freepik.com/free-vector/my-password-concept-illustration_11436091.htm#fromView=search&page=1&position=51&uuid=a7cd0c67-cdbc-422a-9b39-29282885b1ae
