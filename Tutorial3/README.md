@@ -2,7 +2,7 @@
 
 * *Date Created*: 05 June 2024
 * *Last Modification Date*: 06 June 2024
-* *Website URL*: <https://666214067d1f5f5796c788b4--tutorial3-advance-web-development.netlify.app/>
+* *Website URL*: <https://tutorial3-advance-web-development.netlify.app/>
 * *Git URL*: <https://git.cs.dal.ca/nkukadiya/CSCI-5709-Tutorials/-/tree/main/Tutorial3?ref_type=heads>
 
 ## Authors
@@ -17,7 +17,7 @@ Steps of Deployment:
 1. Upload your code to the main branch of the GitHub repository.
 2. Retrieve the Tutorial3 project from GitHub and import it into Netlify.
 3. Configure the build settings using npm run build and adjust the publish directory for deploying the application.
-4. Access the live application at https://666214067d1f5f5796c788b4--tutorial3-advance-web-development.netlify.app/.
+4. Access the live application at https://tutorial3-advance-web-development.netlify.app/.
 
 ## Built With
 
