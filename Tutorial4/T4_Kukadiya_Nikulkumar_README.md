@@ -444,6 +444,11 @@ module.exports = {
 ```
 The CSS provided above is utilized to define the theme and styling elements for the application, including fonts.
 
+
+### Important Notes
+
+Please take a note that as the user detail and in user listing screen the image url is not working so i used the https://picsum.photos/400?test${user.name} which will generate the random image everytime. Just for your reference.
+
 ### References
 
 [1]  "My Password Concept Illustration," Freepik. [Online]. Available at: https://www.freepik.com/free-vector/my-password-concept-illustration_11436091.htm#fromView=search&page=1&position=51&uuid=a7cd0c67-cdbc-422a-9b39-29282885b1ae [Accessed: 04 June 2024]
@@ -453,6 +458,8 @@ The CSS provided above is utilized to define the theme and styling elements for 
 [3]  "Iceland Mountains Sky Clouds," PickPik. [Online]. Available at: https://i1.pickpik.com/photos/505/534/455/iceland-mountains-sky-clouds-9b99ed0ad454e793dcf20d69e8cec8bd.jpg [Accessed: 19 June 2024].
 
 [4]  "New Zealand Mountains Sky Clouds," PickPik. [Online]. Available at: https://i2.pickpik.com/photos/928/417/143/new-zealand-mountains-sky-clouds-2fe9dc8951cc91a867aaa7a5d9e9e5b8.jpg [Accessed: 19 June 2024].
+
+[5]  "Picsum Photos," Lorem Picsum. [Online]. Available at: https://picsum.photos/400 [Accessed: 19 June 2024].
 
 ## Acknowledgments
 
