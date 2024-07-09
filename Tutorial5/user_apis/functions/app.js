@@ -1,5 +1,3 @@
-import {Router} from "express";
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const users_data = require('./users_data');
@@ -10,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 
-const router = Router();
+const router = express.Router();
 
 
 // Get api to retrieve all users
@@ -133,7 +131,9 @@ router.put('/update/:id', (req, res) => {
     }
 });
 
-app.use('/.netlify/functions/api', router);
+app.use('/.netlify/functions/server', router);  // path must route to lambda
+
+module.exports = app;
 
 module.exports.handler = serverless(app);
 
