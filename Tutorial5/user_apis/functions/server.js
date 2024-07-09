@@ -4,8 +4,8 @@ const users_data = require('./users_data');
 import serverless from "serverless-http";
 const { v4: uuidv4 } = require('uuid');
 
-const app = express();
-app.use(bodyParser.json());
+const server = express();
+server.use(bodyParser.json());
 
 
 const router = express.Router();
@@ -131,11 +131,11 @@ router.put('/update/:id', (req, res) => {
     }
 });
 
-app.use('/.netlify/functions/server', router);  // path must route to lambda
+server.use('/.netlify/functions/server', router);  // path must route to lambda
 
-module.exports = app;
+module.exports = server;
 
-module.exports.handler = serverless(app);
+module.exports.handler = serverless(server);
 
 
 // app.listen(3000, () => {
