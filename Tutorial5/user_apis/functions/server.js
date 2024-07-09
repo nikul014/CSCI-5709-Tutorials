@@ -135,7 +135,7 @@ router.put('/update/:id', (req, res) => {
 
 app.use("/", router);
 
-export const handler = serverless(app);
+module.exports.handler = serverless(app);
 
 
 // app.listen(3000, () => {
