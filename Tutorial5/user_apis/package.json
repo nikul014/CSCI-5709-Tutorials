@@ -1,10 +1,9 @@
 {
   "name": "user_apis",
   "version": "1.0.0",
-  "main": "express/server.js",
+  "main": "app.js",
   "scripts": {
-    "build": "netlify-lambda build express",
-    "start": "node server-local.js"
+    "start": "node app.js"
   },
   "keywords": [
     "netlify",
@@ -16,8 +15,6 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.19.2",
-    "netlify-cli": "^17.33.0",
-    "netlify-lambda": "^2.0.16",
     "serverless-http": "^3.2.0",
     "uuid": "^10.0.0"
   }
